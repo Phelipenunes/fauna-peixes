@@ -81,7 +81,7 @@ export default function Home({ posts, categorias }) {
         <meta name="keywords" content="Fauna, Peixes, Aquario, Animais" />
       </Head>
       <StyledHome>
-        <h2>Pet Notícias: {listaDePosts.length}</h2>
+        <h2>Peixes: {listaDePosts.length}</h2>
 
         <ListaCategorias
           categorias={categorias}
