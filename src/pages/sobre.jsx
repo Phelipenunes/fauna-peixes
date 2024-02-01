@@ -6,15 +6,12 @@ export default function Sobre() {
   return (
     <>
       <Head>
-        <title>Sobre - PetShop</title>
-        <meta
-          name="description"
-          content="Missão, visão e valores do nosso PetShop"
-        />
-        <meta name="keywords" content="petshop, missão, visão, valores" />
+        <title>Sobre - Fauna</title>
+        <meta name="description" content="Fauna, Peixes, Aquario, Animais" />
+        <meta name="keywords" content="Fauna, Peixes, Aquario, Animais" />
       </Head>
       <StyledSobre>
-        <h2>Sobre nosso PetShop</h2>
+        <h2>Sobre nós</h2>
 
         <Container>
           <h3>Missão</h3>
@@ -47,5 +44,9 @@ export default function Sobre() {
 const StyledSobre = styled.section`
   h2::before {
     content: "💡 ";
+  }
+  img {
+    width: 100%;
+    height: 50%;
   }
 `;

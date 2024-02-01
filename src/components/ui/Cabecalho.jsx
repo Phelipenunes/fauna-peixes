@@ -10,12 +10,12 @@ export default function Cabecalho() {
         <h1>
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-peixe.png"
               width={48}
               height={48}
-              alt="Patinha dentro de um coração"
+              alt="Peixe"
             />
-            PetShop
+            Fauna
           </Link>
         </h1>
         <Menu />
@@ -25,7 +25,7 @@ export default function Cabecalho() {
 }
 
 const StyledHeader = styled.header`
-  background-color: #f7f7f7;
+  background-color: #c7c7c7;
   box-shadow: var(--sombra-box);
 
   h1 a {

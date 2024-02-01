@@ -11,10 +11,7 @@ export default function Menu() {
   return (
     <StyledNav>
       <Link href="/" className={linkAtivo("/")}>
-        Blog
-      </Link>
-      <Link href="/produtos" className={linkAtivo("/produtos")}>
-        Produtos
+        Peixes
       </Link>
       <Link href="/sobre" className={linkAtivo("/sobre")}>
         Sobre
@@ -32,6 +29,7 @@ const StyledNav = styled.nav`
   align-items: center;
 
   a {
+    font-weight: 700;
     text-decoration: none;
     background-color: var(--cor-primaria-fundo);
     color: var(--cor-primaria);
@@ -59,6 +57,6 @@ const StyledNav = styled.nav`
   }
 
   a.ativo {
-    background-color: black;
+    background-color: #8f8f8f;
   }
 `;

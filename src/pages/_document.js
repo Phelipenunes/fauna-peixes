@@ -6,11 +6,11 @@ export default function Document() {
       <Head>
         <link
           rel="shortcut icon"
-          href="/images/favicon.png"
+          href="/images/favicon-peixe.png"
           type="image/png"
           sizes="256x256"
         />
-        <meta name="author" content="Tiago B. dos Santos" />
+        <meta name="author" content="Phelipe nunes dos santos" />
       </Head>
       <body>
         <Main />

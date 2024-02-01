@@ -6,12 +6,12 @@
 }
 /* Variáveis CSS */
 :root {
-  --cor-primaria-fundo: #0b0a3f;
-  --cor-primaria-fundo-hover: #030226;
-  --cor-primaria: #f2f2f2;
+  --cor-primaria-fundo: #c7c7c7;
+  --cor-primaria-fundo-hover: #c7c7c7;
+  --cor-primaria: #000000;
   --cor-primaria-hover: #ebebeb;
   --cor-secundaria-fundo: #4ba3c3;
-  --cor-secundaria-fundo-hover: #2f88a8;
+  --cor-secundaria-fundo-hover: #ffffff;
   --cor-secundaria: #e4e3f2;
   --cor-secundaria-hover: #e2e2eb;
   --sombra-box: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
