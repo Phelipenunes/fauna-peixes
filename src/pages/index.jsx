@@ -99,6 +99,6 @@ export default function Home({ posts, categorias }) {
 
 const StyledHome = styled.section`
   h2::before {
-    content: "📰 ";
+    content: "🦈 ";
   }
 `;

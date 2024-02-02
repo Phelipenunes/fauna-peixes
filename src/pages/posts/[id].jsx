@@ -39,13 +39,13 @@ export default function Post({ post }) {
   return (
     <>
       <Head>
-        <title>{post.titulo} - PetShop</title>
+        <title>{post.titulo} - Fauna</title>
         <meta name="description" content="Descrição do post..." />
       </Head>
       <StyledPost>
         <h2>{post.titulo}</h2>
         <Container>
-          <h3>{post.categoria}</h3>
+          <h4>Comportamento: {post.categoria}</h4>
           <p>{post.descricao}</p>
         </Container>
       </StyledPost>
@@ -54,6 +54,6 @@ export default function Post({ post }) {
 }
 const StyledPost = styled.article`
   h2::before {
-    content: "📑 ";
+    content: "🦈";
   }
 `;

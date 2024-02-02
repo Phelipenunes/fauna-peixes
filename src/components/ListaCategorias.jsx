@@ -33,15 +33,16 @@ const StyledCategorias = styled.div`
   display: flex;
   justify-content: space-around;
   padding: 10px;
+
   button {
     padding: 7px;
-    background-color: #1b18c2;
-    color: white;
+    background-color: #c7c7c7;
+    color: black;
     border-radius: 5px;
     border: none;
     text-transform: capitalize;
     font-size: 0.85vw;
-
+    font-weight: 700;
     &.ativo {
       background-color: var(--cor-primaria-fundo);
     }
@@ -53,7 +54,7 @@ const StyledCategorias = styled.div`
       background-color: slategray;
     }
     &:before {
-      content: "";
+      content: "🦈";
     }
   }
 `;

@@ -1,3 +1,3 @@
-const serverapi = `https://petshop-phelipe-default-rtdb.firebaseio.com/`;
+const serverapi = `https://fauna-phelipe-default-rtdb.firebaseio.com/`;
 
 export default serverapi;
