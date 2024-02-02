@@ -4,6 +4,9 @@ import ListaPosts from "@/components/ListaPosts";
 import { useState } from "react";
 import serverapi from "@/pages/api/server";
 import ListaCategorias from "@/components/ListaCategorias";
+import StyledSobre from "@/pages/sobre";
+import StyledContato from "@/pages/contato";
+import Container from "@/components/ui/Container";
 
 export async function getStaticProps() {
   try {
@@ -93,6 +96,11 @@ export default function Home({ posts, categorias }) {
 
         <ListaPosts posts={listaDePosts} />
       </StyledHome>
+      <br />
+      <StyledSobre />
+      <br />
+      <StyledContato />
+      <br />
     </>
   );
 }
