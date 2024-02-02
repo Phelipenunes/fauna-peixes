@@ -7,17 +7,17 @@ export default function pagina404() {
   return (
     <>
       <Head>
-        <title>Ops - PetShop</title>
+        <title>Ops - Fauna</title>
       </Head>
       <Styled404>
-        <h2>Au au au! Foi mal!</h2>
+        <h2>Algo de errado não está certo!</h2>
         <Container>
           <h3>Ops! Algo deu errado</h3>
           <Image
-            src="/images/404.svg"
+            src="/images/peixonauta.png"
             width={500}
             height={296}
-            alt="Ilustração de um cachorro bonito"
+            alt="foto de um peixe"
           />
         </Container>
       </Styled404>
