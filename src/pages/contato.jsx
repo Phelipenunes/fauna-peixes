@@ -35,7 +35,7 @@ export default function Contato() {
   return (
     <>
       <Head>
-        <title>Contato - PetShop</title>
+        <title>Contato - Fauna</title>
         <meta
           name="description"
           content="Entre em contato conosco pelo formulário abaixo"
